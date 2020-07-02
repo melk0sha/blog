@@ -1,0 +1,67 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.3vw;
+  color: #ffffff;
+  margin: 0 10% 3% 0;
+  text-align: right;
+}
+
+.welcome-text-1 {
+  font-size: 5vw;
+}
+
+.welcome-text-2 {
+  font-size: 2.7vw;
+}
+
+.btn-down {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  margin-bottom: 3%;
+  background-color: transparent;
+  outline: none;
+
+  &:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
+
+.btn-down-arrow {
+  width: 30%;
+  height: 30%;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transform: rotate(45deg);
+  animation: go-up-down 0.5s infinite alternate;
+}
+
+@keyframes go-up-down {
+  from {
+    margin-bottom: 0;
+  }
+  to {
+    margin-bottom: 12px;
+  }
+}
