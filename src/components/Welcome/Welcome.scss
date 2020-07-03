@@ -1,0 +1,29 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/images/welcome-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.3vw;
+  color: #ffffff;
+  margin: 0 10% 3% 0;
+  text-align: right;
+}
+
+.welcome-text-1 {
+  font-size: 5vw;
+}
+
+.welcome-text-2 {
+  font-size: 2.7vw;
+}

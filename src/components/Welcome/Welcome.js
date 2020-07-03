@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ButtonDown from "./ButtonDown";
+import "./Welcome.scss";
 
 export default class Welcome extends Component {
   render() {

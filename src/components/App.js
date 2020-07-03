@@ -1,16 +1,15 @@
 import React, { Component, Fragment } from "react";
-import { render } from "react-dom";
-import Welcome from "./Welcome/Welcome";
+import Welcome from "./Welcome";
+import Articles from "./Articles";
+import "../assets/scss/index.scss";
 
 export default class App extends Component {
   render() {
     return (
       <Fragment>
         <Welcome />
-        <Welcome />
+        <Articles />
       </Fragment>
     );
   }
 }
-
-render(<App />, document.getElementById("root"));
